@@ -1,3 +1,4 @@
+/* Definição de Fontes */
 @font-face {
   font-family: 'Unbounded';
   font-weight: 700;
@@ -14,11 +15,13 @@
   src: url('../fonts/Poppins-Regular.ttf') format('truetype');
 }
 
+/* Reset */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Estilo Desktop */
 body {
   background-color: #0e1014;
   color: #ffffff;
@@ -44,7 +47,8 @@ h1 span {
 
 p {
   text-align: center;
-  margin-top: 24px;
+  width: 792px;
+  margin: 24px auto 0;
 }
 
 p,
@@ -66,9 +70,52 @@ a {
   margin: 40px auto;
 }
 
+a:hover {
+  background-color: #8233e8;
+}
+
 section img {
   display: block;
   width: 792px;
   height: 446px;
   margin: 0 auto;
+}
+
+/* Estilo Mobile */
+@media (max-width: 768px) {
+  header img {
+    margin: 65px 0 0 60px;
+  }
+
+  p {
+    width: 648px;
+  }
+}
+
+@media (max-width: 480px) {
+  header img {
+    margin: 32px 0 0 16px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    width: 341px;
+  }
+
+  p,
+  a {
+    font-size: 20px;
+  }
+
+  a {
+    width: 251px;
+  }
+
+  section img {
+    width: 341px;
+    height: 230px;
+  }
 }
