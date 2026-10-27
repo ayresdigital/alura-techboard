@@ -14,6 +14,12 @@ Landing page desenvolvida durante o curso **HTML e CSS: Ambiente, Estrutura e Es
 
 O projeto apresenta a interface de divulgação do Techboard, uma proposta de plataforma de monitoramento de aplicações, com uma página inicial que combina identidade visual, conteúdo institucional e elementos gráficos para apresentar a solução.
 
+## Demonstração
+
+Acesse a versão publicada do projeto:
+
+**[Visualizar Techboard](https://ayresdigital.github.io/alura-techboard/)**
+
 ## Sobre o projeto
 
 O Techboard foi desenvolvido como parte da minha jornada de aprendizado em desenvolvimento front-end. O objetivo foi aplicar na prática os fundamentos de HTML e CSS, explorando a estruturação de páginas, a organização dos arquivos e a estilização de interfaces.
